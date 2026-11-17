@@ -1,0 +1,223 @@
+
+
+.cartao {
+  padding: 24px;
+  border-radius: 12px;
+  background: white;
+}
+
+.balao {
+  background-color: #f0e6ff;
+  color: #563580;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 85%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+  min-height: 80px;
+}
+
+.titulo {
+  text-align: center;
+  color: #8e44ad;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Área de tarefas */
+.tarefas {
+  max-width: 750px;
+  width: 92%;
+  margin: 35px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 1px solid #eadcf8;
+  border-radius: 22px;
+  box-shadow: 0 6px 20px #e8d9f5;
+}
+
+.tarefas h2 {
+  color: #8e44ad;
+  margin-bottom: 8px;
+}
+
+.subtitulo-tarefas {
+  text-align: center;
+  color: #806b8e;
+  margin-bottom: 22px;
+}
+
+.form-tarefas {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-tarefas input {
+  flex: 1;
+  min-width: 180px;
+  border: 1px solid #d9c2ed;
+  border-radius: 12px;
+  padding: 12px;
+  outline: none;
+}
+
+.form-tarefas input:focus {
+  border-color: #9b59b6;
+  box-shadow: 0 0 0 3px #f0e6ff;
+}
+
+.botao-adicionar,
+.botao-concluir {
+  background-color: #8e44ad;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 11px 15px;
+  cursor: pointer;
+}
+
+.botao-remover {
+  background-color: #f8e4ed;
+  color: #963b65;
+  border: none;
+  border-radius: 10px;
+  padding: 11px 15px;
+  cursor: pointer;
+}
+
+.contador-tarefas {
+  margin: 20px 0;
+  padding: 13px;
+  background-color: #f5edfc;
+  color: #69418a;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.lista-tarefas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-tarefa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+  padding: 15px;
+  background-color: #69418a;
+  border: 1px solid #eee2f8;
+  border-radius: 14px;
+}
+
+.texto-tarefa {
+  overflow-wrap: anywhere;
+  flex: 1;
+}
+
+.item-tarefa.concluida .texto-tarefa {
+  text-decoration: line-through;
+  color: #998da3;
+}
+
+.acoes-tarefa {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.vazio {
+  text-align: center;
+  color: #8d7b9a;
+  padding: 20px;
+}
+
+@media (max-width: 480px) {
+  .tarefas {
+    padding: 18px;
+  }
+
+  .form-tarefas input {
+    width: 100%;
+  }
+
+  .form-tarefas button {
+    width: 100%;
+  }
+
+  .item-tarefa {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+
+
+
+.contato {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative;
+  width: 90%;
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff0f5;
+  border-radius: 20px;
+  color: #633b50;
+}
+
+.contato h1,
+.contato p {
+  display: block;
+  text-align: center;
+}
+
+.contato form {
+  display: flex !important;
+  flex-direction: column;
+  gap: 12px;
+  visibility: visible !important;
+}
+
+.contato label,
+.contato input,
+.contato textarea,
+.contato button {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.contato input,
+.contato textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #e5b5ca;
+  border-radius: 10px;
+  background: white;
+}
+
+.contato textarea {
+  min-height: 120px;
+}
+
+.contato button {
+  padding: 14px;
+  background: #bd6b91;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}

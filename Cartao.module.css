@@ -1,0 +1,24 @@
+.cartao {
+  background-color: #f3e8ff;
+  color: #6c3483;
+  padding: 20px;
+  margin: 16px 0;
+  border-radius: 12px;
+}
+
+.cartao h2 {
+  margin-bottom: 10px;
+}
+
+.cartao button {
+  background-color: #6c3483;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cartao li {
+  margin-top: 6px;
+}
